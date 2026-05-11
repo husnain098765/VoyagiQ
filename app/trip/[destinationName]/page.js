@@ -53,7 +53,7 @@ export default async function TripPage({ params }) {
     if (!itinerary) {
         return (
             <div className="text-center p-20 text-xl text-red-600">
-                ❌ Error: Trip plan for "{decodeURIComponent(destinationName)}" could not be loaded. Please try again.
+                ❌ Error: Trip plan for &quot;{decodeURIComponent(destinationName)}&quot; could not be loaded. Please try again.
             </div>
         );
     }
